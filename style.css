@@ -1,15 +1,23 @@
-:root{
+:root {
     --main-color: #E4D8CC;
     --font: "Inter", serif;
     --secondary-color: #C3BAB1;
 }
-.header-hero-wrapper{
+
+.container {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.header-hero-wrapper {
     background-image: url(./img/hero-bg.jpg);
     height: 784px;
+    background-size: cover;
 }
+
 .header {}
 
-.list-wrapper{
+.list-wrapper {
     display: flex;
 }
 
@@ -41,17 +49,15 @@
     font-weight: 400px;
 }
 
-.section-header {
-}
+.section-header {}
 
-.container {
-    width: 1152px;
-}
 
 /* section hero */
 
 .section-hero {
+    margin-bottom: 76px;
 }
+
 .hero-title {
     font-family: var(--font);
     font-size: 57px;
@@ -62,6 +68,7 @@
     color: var(--main-color);
     margin-top: 364px;
 }
+
 .hero-span {
     font-family: var(--font);
     font-size: 18px;
@@ -71,10 +78,12 @@
     margin-bottom: 42px;
     color: var(--secondary-color);
 }
-.hero-btn-wrapper{
+
+.hero-btn-wrapper {
     display: flex;
     gap: 16px;
 }
+
 .hero-btn {
     padding: 14px 34px;
     border-radius: 100px;
@@ -87,10 +96,102 @@
     height: 52px;
     margin-bottom: 116px;
 }
+
 .one {
     background-color: #7837F3;
     border: none;
 }
+
 .two {
+    color: white;
     border: none;
+    background-color: #E4D8CC80;
+    opacity: 50%;
 }
+
+/* section-graphic */
+
+.section-graphic {
+    background-color: #E7DFD8;
+    padding-bottom: 199px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.graphic-paragraph {
+    width: 507px;
+    height: 232px;
+    font-family: var(--font);
+    font-size: 54px;
+    font-weight: 400px;
+}
+
+.graphic-span {
+    width: 432px;
+    height: 88px;
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400px;
+    margin-top: 15px;
+}
+
+.graphic-graphic {
+    width: 539px;
+    height: 283px;
+    margin-top: 93px;
+    margin-left: 102px;
+}
+
+/* ability sectio0n one */
+
+.section-abilities-one {}
+
+.ability-wrapper {
+    display: flex;
+}
+
+.ability-img {
+    width: 518px;
+    height: 500px;
+    margin-right: 116px;
+}
+
+.ability-icon {
+    background-color: #B99FEA;
+    width: 17px;
+    height: 24px;
+    padding: 25px 28px;
+    text-align: center;
+    border-radius: 50%;
+    font-family: var(--font);
+    font-weight: 400px;
+    font-size: 38px;
+}
+
+.icon-wrapper {
+    display: flex;
+    vertical-align: center;
+}
+
+.ability-span {
+    margin-top: 57px;
+    margin-left: 12px;
+    font-family: var(--font);
+    font-weight: 400px;
+    font-size: 19px;
+}
+
+.ability-big-paragraph {
+    margin-top: 18px;
+    width: 459px;
+    height: 137px;
+    font-family: var(--font);
+    font-size: 35px;
+    font-weight: 40px;
+}
+
+.ability-link {}
+
+.ability-paragraph {}
